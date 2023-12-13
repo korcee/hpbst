@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypebeast Raktár</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./images/social/hypebeastlogo.jpg">
+    <style>
+      @font-face {
+        font-family: "FutuMdIt";
+        src: url("./fonts/FutuMdIt.ttf");
+      }
+      @font-face {
+        font-family: 'RobotoThin';
+        src: url('./fonts/RobotoCondensed-Thin.ttf');
+      }
+      @font-face {
+        font-family: 'RobotoRegular';
+        src: url('./fonts/RobotoCondensed-Regular.ttf');
+      }
+      nav a{
+        font-family: 'RobotoRegular';
+      }
+      .logo{
+        font-family: 'RobotoThin';
+        font-weight: 100;
+        font-size: 40px;
+      }
+      .logo :only-child{
+        font-family: 'RobotoRegular';
+        font-weight: 400;
+      }
+      p{
+        font-family: 'RobotoThin';
+      }
+      .huf{
+        font-family: 'RobotoRegular';
+      }
+      #shoe{
+        font-family: 'RobotoThin';
+      }
+      #shoe :only-child{
+        font-family: 'RobotoRegular';
+      }
+      .insta{
+        font-family: 'RobotoRegular';
+      }
+      .ref span{
+        font-family: 'RobotoRegular';
+      }
+      .beszerzes span{
+        font-family: 'RobotoRegular';
+      }
+      img{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body class="h-auto bg-slate-200 w-screen">
+    <p class="text-6xl text-center mt-5 text-red-600">🚀 WORK IN PROGRESS... 🔧</p>
+    <div class="blur-sm">
+    <nav class="flex flex-nowrap justify-between w-[92%] mx-auto text-4xl mt-5">
+      <a href="#">KÉSZLETEN</a>
+      <a href="./index.html" class="logo">HYPEBEAST<span>RAKTÁR</span></a>
+      <a href="#">TÖRTÉNET</a>
+    </nav>
+    <main>
+        <div class="flex">
+            <div class="bg-slate-300 w-[30%] ml-8 mt-5 p-5 pt-2 rounded-md shadow-inner backdrop-blur">
+                <p class="text-4xl text-center">MOST ÉRKEZETT 🫣</p>
+                <div class="item flex flex-nowrap flex-col justify-center items-center mt-7">
+                    <p class="mb-3 text-3xl" id="shoe"><span>Nike</span> Dunk Low</p>
+                    <p class="mb-3 text-3xl" id="shoe">"INDUSTRIAL BLUE"</p>
+                    <img class="rounded-md outline outline-slate-300 shadow-2xl mb-3" src="./images/shoes/dunk.png" alt="Nike Dunk">
+                </div>
+                <p class="text-center mt-5">👇🏽</p>
+                <div class="item flex flex-nowrap flex-col justify-center items-center mt-5">
+                    <p class="mb-3 text-3xl" id="shoe"><span>Jordan</span> 1 Mid</p>
+                    <p class="mb-3 text-3xl" id="shoe">"FRENCH BLUE"</p>
+                    <img class="rounded-md outline outline-slate-300 shadow-2xl mb-3" src="./images/shoes/mid1.png" alt="Jordan 1 Mid">
+                </div>
+                <p class="text-center mt-5">👇🏽</p>
+                <div class="item flex flex-nowrap flex-col justify-center items-center mt-5">
+                    <p class="mb-3 text-3xl" id="shoe"><span>Nike</span> Dunk Low</p>
+                    <p class="mb-3 text-3xl" id="shoe">"SB WHEAT"</p>
+                    <img class="rounded-md outline outline-slate-300 shadow-2xl mb-3" src="./images/shoes/dunkwheat.png" alt="Nike Dunk Low">
+                </div>
+            </div>
+            <div class="bg-slate-300 h-auto w-[30%] mt-5 rounded-md ml-10 shadow-inner">
+                <p class="mt-2 text-4xl mx-auto text-center">🎬 LEGFRISEBB VIDEÓ</p>
+                <video autoplay controls loop class="h-[70%] w-[90%] mx-auto shadow-xl rounded-xl">
+                    <source src="./images/social/tiktokteaser.mp4" type="video/mp4">
+                </video>
+                <p class="mt-10 text-4xl mx-auto text-center">ÚJ VIDEÓ HAMAROSAN...🎥</p>
+                <a href="https://www.instagram.com/hypebeast_raktar/" target="_blank"><p class="mt-10 text-4xl text-center insta"><span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">@hypebeast_raktar</span></p></a>
+            </div>
+            <div class="bg-slate-300 h-auto w-[30%] mt-5 rounded-md ml-10 shadow-inner">
+                <p class="mt-2 text-4xl text-center">VÁSÁRLÓI VISSZAJELZÉSEK</p>
+                <div class="ref">
+                    <p class="text-center text-2xl">(105+ <span>REF</span>)</p>
+                    <div class="ml-10 mr-10 mt-10">
+                        <img class="w-screen mb-10 rounded-lg shadow-xl" src="./images/feedbacks/1.png" alt="Feedback">
+                        <img class="w-screen mb-10 rounded-lg shadow-xl" src="./images/feedbacks/2.png" alt="Feedback">
+                    </div>
+                    <p class="text-center text-2xl mb-5">(EZ CSAK 2 A <span>SOK</span> KÖZÜL...)</p>
+                </div>
+            </div>
+        </div>
+        <div class="beszerzes bg-slate-300 w-[96%] h-full mx-auto rounded-md mt-10 shadow-inner pt-5">
+            <p class="text-center text-4xl">BESZERZÉS</p>
+            <p class="text-center text-2xl mt-5">RÉGÓTA VÁGYSZ EGY CIPŐRE, ADOTT RUHÁRA DE SEHOL SEM TALÁLOD? JÓ HÍRÜNK VAN, MOSTANTÓL BESZERZÉSSEL IS FOGLALKOZUNK, ÍGY HA A FELÜL EMLÍTETTEKBEN MAGADRA ISMERTÉL, AKKOR KERESS MINKET PRIVÁT ÜZENETBEN!</p>
+            <p class="text-center text-2xl mt-5 mb-5"><span>(</span>TERMÉKEINK MEGBÍZHATÓ HELYRŐL ÉRKEZNEK.<span>)</span></p>
+            <img class="mx-auto h-96 w-96 rounded-lg shadow-xl mb-5 mt-3" src="./images/social/sale.jpeg" alt="Xmas Sale">
+            <p class="text-center text-2xl mb-5">🎄 XMAS SALE 👆🏼</p>
+        </div>
+    </main>
+    <footer>
+        <div class="flex flex-row justify-center bg-slate-300 rounded-md w-[96%] mx-auto mt-10 mb-5 shadow-inner">
+            <a href="https://www.facebook.com/profile.php?id=100090175514921" target="_blank" class="mt-7 mr-14"><img class="h-10 w-10" src="./images/social/facebook.svg" alt="Hypebeast Raktár"></a>
+            <a href="https://www.instagram.com/hypebeast_raktar/" target="_blank"><img class="h-24 w-24" src="./images/social/instagram.svg" alt="Hypebeast Raktár"></a>
+            <a href="https://www.tiktok.com/@hypebeast_raktar?lang=hu-HU" target="_blank" class="mt-7 ml-14"><img class="h-10 w-10" src="./images/social/tiktok.svg" alt="Hypebeast Raktár"></a>
+        </div>
+        <p class="text-center mb-5">2023 © Hypebeast Raktár</p>
+    </footer>
+    </div>
+  </body>
+</html>
