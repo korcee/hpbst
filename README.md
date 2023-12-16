@@ -11,7 +11,3 @@
 - Futura Md Bt (Fő)
 - Palace Script Mt (terv)
 - Gira Sans (terv)
-# hypebeast_raktar
-# sejem
-# hr
-# hypebeast-raktar
