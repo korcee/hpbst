@@ -770,6 +770,10 @@ video {
   height: 2.25rem;
 }
 
+.h-\[70\] {
+  height: 70;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1499,5 +1503,15 @@ video {
 @media (max-width: px) {
   .max-\[px\]\:hidden {
     display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .max-\[900px\]\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .max-\[900px\]\:w-\[70\%\] {
+    width: 70%;
   }
 }
